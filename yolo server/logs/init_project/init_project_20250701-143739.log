@@ -1,0 +1,58 @@
+2025-07-01 14:37:39,734-YOLO Init Project-INFO:日志记录器已初始化，日志文件保存在:E:\safeyolo\yolo server\logs\init_project\init_project_20250701-143739.log
+2025-07-01 14:37:39,734-YOLO Init Project-INFO:日志记录器名称:YOLO Init Project
+2025-07-01 14:37:39,734-YOLO Init Project-INFO:日志记录器最低记录级别:20
+2025-07-01 14:37:39,734-YOLO Init Project-INFO:====================日志记录器初始化完成====================
+2025-07-01 14:37:39,735-YOLO Init Project-INFO:=====================开始初始化项目======================
+2025-07-01 14:37:39,736-YOLO Init Project-INFO:项目的根路径为:E:\safeyolo\yolo server
+2025-07-01 14:37:39,736-YOLO Init Project-INFO:====================开始创建项目核心目录====================
+2025-07-01 14:37:39,737-YOLO Init Project-INFO:目录.已经存在
+2025-07-01 14:37:39,738-YOLO Init Project-INFO:已经成功创建目录:configs
+2025-07-01 14:37:39,742-YOLO Init Project-INFO:已经成功创建目录:data
+2025-07-01 14:37:39,743-YOLO Init Project-INFO:已经成功创建目录:runs
+2025-07-01 14:37:39,744-YOLO Init Project-INFO:已经成功创建目录:models
+2025-07-01 14:37:39,745-YOLO Init Project-INFO:已经成功创建目录:models\pretrained
+2025-07-01 14:37:39,747-YOLO Init Project-INFO:已经成功创建目录:models\checkpoints
+2025-07-01 14:37:39,748-YOLO Init Project-INFO:已经成功创建目录:scripts
+2025-07-01 14:37:39,748-YOLO Init Project-INFO:目录logs已经存在
+2025-07-01 14:37:39,749-YOLO Init Project-INFO:已经成功创建目录:data\raw
+2025-07-01 14:37:39,750-YOLO Init Project-INFO:已经成功创建目录:data\raw\images
+2025-07-01 14:37:39,751-YOLO Init Project-INFO:已经成功创建目录:data\raw\original_annotations
+2025-07-01 14:37:39,751-YOLO Init Project-INFO:已经成功创建目录:data\raw\yolo_staged_labels
+2025-07-01 14:37:39,752-YOLO Init Project-INFO:已经成功创建目录:data\train\images
+2025-07-01 14:37:39,753-YOLO Init Project-INFO:已经成功创建目录:data\train\labels
+2025-07-01 14:37:39,755-YOLO Init Project-INFO:已经成功创建目录:data\val\images
+2025-07-01 14:37:39,756-YOLO Init Project-INFO:已经成功创建目录:data\val\labels
+2025-07-01 14:37:39,757-YOLO Init Project-INFO:已经成功创建目录:data\test\images
+2025-07-01 14:37:39,758-YOLO Init Project-INFO:已经成功创建目录:data\test\labels
+2025-07-01 14:37:39,758-YOLO Init Project-INFO:==================项目核心目录检查与创建完成===================
+2025-07-01 14:37:39,758-YOLO Init Project-INFO:===================开始检查原始数据集目录====================
+2025-07-01 14:37:39,759-YOLO Init Project-WARNING:原始图像文件目录存在但为空，请将原始原始图像文件放入到该路径下，并且确保目录结构准确，以便后续转换数据，输入数据路径为：data\raw\images
+2025-07-01 14:37:39,759-YOLO Init Project-WARNING:原始标注文件目录存在但为空，请将原始原始标注文件放入到该路径下，并且确保目录结构准确，以便后续转换数据，输入数据路径为：data\raw\original_annotations
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:====================项目初始化结果汇总=====================
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:新创建的目录有:17个，具体如下
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- configs
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- data
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- runs
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- models
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- models\pretrained
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- models\checkpoints
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- scripts
+2025-07-01 14:37:39,760-YOLO Init Project-INFO:- data\raw
+2025-07-01 14:37:39,761-YOLO Init Project-INFO:- data\raw\images
+2025-07-01 14:37:39,761-YOLO Init Project-INFO:- data\raw\original_annotations
+2025-07-01 14:37:39,761-YOLO Init Project-INFO:- data\raw\yolo_staged_labels
+2025-07-01 14:37:39,761-YOLO Init Project-INFO:- data\train\images
+2025-07-01 14:37:39,761-YOLO Init Project-INFO:- data\train\labels
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- data\val\images
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- data\val\labels
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- data\test\images
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- data\test\labels
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:已经存在的目录有:2个，具体如下
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- .
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- logs
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:原始数据集目录检查结果有:2个，具体如下
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- data\raw\images(为空，需要放入原始数据)
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:- data\raw\original_annotations(为空，需要放入原始数据)
+2025-07-01 14:37:39,762-YOLO Init Project-INFO:请务必根据上述提示进行操作，并确保项目目录结构正确
+2025-07-01 14:37:39,763-YOLO Init Project-INFO:=====================项目初始化完成======================
+2025-07-01 14:37:39,763-YOLO Init Project-INFO:性能报告:Init_Project)平均耗时:0.027 砸秒

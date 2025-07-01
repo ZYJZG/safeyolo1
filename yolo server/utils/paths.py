@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# @FileName :paths.py.py
-# @Time     :2025/6/30 15:43:12
-# @Author   :雨霓同学
-# @Project  :SafeYolo
-# @Function :用于定义整个项目所需要的所有路径信息
 
 from pathlib import Path
 

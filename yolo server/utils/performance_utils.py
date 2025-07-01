@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 +-
-## QRFileName :performance_utils.py
-## @Time :2825/7/1 10:89:29
-## RAuthor :雨霖同学
-## RProject :SofeYolo
-## @Function :性能测量工具
 
 import logging
 import time

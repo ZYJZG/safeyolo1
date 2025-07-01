@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*
-# @FileName : logging_utils.py
-# @Time     : 2025/7/1 09:14:45
-# @Author   : 雨露同学
-# @Project  : SafeYolo
-# @Function : 主要是日志相关的一些内容
 
 import logging
 from datetime import datetime

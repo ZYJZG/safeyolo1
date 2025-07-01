@@ -1,7 +1,6 @@
 import logging
 
 from utils import setup_logging
-from pathlib import Path
 from utils import time_it
 
 from utils.paths import (

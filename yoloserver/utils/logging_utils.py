@@ -3,7 +3,7 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
-
+from colorlog import ColoredFormatter
 def setup_logging(base_path: Path,
                   log_type: str = "general",
                   model_name: str = None,
@@ -58,8 +58,20 @@ def setup_logging(base_path: Path,
     logger.addHandler(file_handler)
 
     ## 6.创建控制台处理器
+    console_formatter = ColoredFormatter(
+        "%(log_color)s%(asctime)s-%(name)s-%(levelname)s:%(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+        reset=True,
+        log_colors={
+            "DEBUG": "cyan",
+            "INFO": "blue",
+            "WARNING": "yellow",
+            "ERROR": "red",
+            "CRITICAL": "red",
+        }
+    )
     console_handler = logging.StreamHandler()
-    console_handler.setFormatter(logging.Formatter("%(asctime)s-%(name)s-%(levelname)s:%(message)s"))
+    console_handler.setFormatter(console_formatter)
     logger.addHandler(console_handler)
 
     ## 7.输出一些初始化信息

@@ -1,0 +1,7 @@
+yoloserver/logs/yolo_trans/yolo_trans_20250703-164523.log
+*.log
+*.txt
+*.jpg
+*.json
+/yoloserver/runs/detect/train7
+/yoloserver/runs/detect

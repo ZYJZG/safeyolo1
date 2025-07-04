@@ -4,4 +4,7 @@
     <option name="sdkName" value="cu124torch" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="cu124torch" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
 </project>

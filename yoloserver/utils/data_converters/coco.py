@@ -10,9 +10,9 @@ import logging
 import datetime
 import shutil
 from pathlib import Path
-
+import sys
 from ultralytics.data.converter import convert_coco
-
+sys.path.append('..')
 from paths import RAW_DATA_DIR, YOLO_STAGED_LABELS_DIR
 
 logger = logging.getLogger(__name__)
@@ -151,7 +151,7 @@ def convert_coco_json_to_yolo(json_input_dir: Path, task: str = "detection",cls9
 
 if __name__=="__main__":
     classes_name_ = convert_coco_json_to_yolo(
-        json_input_dir=Path(r"C:\Users\Matri\Desktop\BTD\yoloserver\data\raw\original_annotations"),
+        json_input_dir=Path(RAW_DATA_DIR/"original_annotations"),
         task = "detection",
     )
     print(classes_name_)

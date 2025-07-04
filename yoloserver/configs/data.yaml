@@ -1,0 +1,6 @@
+path: E:\safeyolo\yoloserver\data
+train: E:\safeyolo\yoloserver\data\train\images
+val: E:\safeyolo\yoloserver\data\val\images
+test: E:\safeyolo\yoloserver\data\test\images
+nc: 3
+names: [glioma_tumor, meningioma_tumor, pituitary_tumor]

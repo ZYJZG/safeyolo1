@@ -10,16 +10,15 @@ if str(yolo_server_root_path) not in sys.path:
 if str(utils_path) not in sys.path:
     sys.path.insert(0,str(utils_path))
 
-sys.path.append("..")
 
-from yoloserver.utils.data_validation import (
+from data_validation import (
     verify_dataset_config,
     verify_split_uniqueness,
     delete_invalid_files
 )
 
-from yoloserver.utils.logging_utils import setup_logging
-from yoloserver.utils.paths import LOGS_DIR, CONFIGS_DIR
+from logging_utils import setup_logging
+from paths import LOGS_DIR, CONFIGS_DIR
 
 DEFAULT_SAMPLE_RATIO = 0.1
 DEFAULT_MIN_SAMPLES = 20
@@ -74,7 +73,7 @@ if __name__ == "__main__":
         verify_dataset_config(
             yaml_path=CONFIGS_DIR / "data.yaml",
             mode=args.mode,
-            task=args.task,
+            task_type=args.task,
             sample_ratio=args.sample_ratio,
             min_samples=args.min_samples
         )
